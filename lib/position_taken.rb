@@ -1,4 +1,4 @@
-def position_taken?(board, array[index_number])
- if array[index_number] == " "
+def position_taken?(board, index)
+ if board[index] == " " || board[index] == "" || board[index] == nil
    "false"
 end
